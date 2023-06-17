@@ -348,10 +348,11 @@ body{
         display: none;
     }
     html{
-        height: 844px;
+        background-color: rgb(5, 0, 38);
+        background-image: none;
     }
-    .daveboi{
-        display: none;
+    body{
+        overflow: hidden;
     }
     .matthew2{
         width: 240px;
@@ -405,5 +406,11 @@ body{
     }
     .title3{
         margin-left: 10px;
+    }
+    .daveboi{
+        display: none;
+    }
+    .lilboi{
+        display: none;
     }
 }
