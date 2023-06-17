@@ -282,6 +282,9 @@ body{
     transform: rotate(360deg);
     box-shadow: 0px 0px 15px rgba(43, 24, 220, 0.95);
 }
+.con{
+    display: none;
+}
 .pfpthing{
     width: 120px;
     height: 120px;
@@ -343,7 +346,7 @@ body{
 @media only all and (max-width: 650px){
     .sidebar{
         background-image: linear-gradient(0deg, rgba(10, 1, 96, 0.01),rgba(25, 0, 255, 0.4));
-        height: 450px;
+        height: 800px;
         width: 100vw;
         overflow: auto;
         display: flex;
@@ -364,7 +367,7 @@ body{
     .de{
         background-color: transparent;
         width: 100vh;
-        height: 450px;
+        height: 800px;
     }
     .logo{
         margin-left: 0;
@@ -390,7 +393,72 @@ body{
         display: none;
     }
     .container{
+        background-image: none;
+        background-color: transparent;
+        height: 200px;
+        margin-top: 0;
         display: none;
+    }
+    .con{
+        width: 350px;
+        height: 320px;
+        background-color: transparent;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .button{
+        height: 90px;
+        width: 350px;
+        background-color: green;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+    #b1{
+        background-image: linear-gradient(0deg, rgb(255, 200, 0), rgb(255, 0, 0));
+    }
+    #b2{
+        background-image: linear-gradient(0deg, rgb(0, 174, 255), rgb(37, 0, 222));
+    }
+    #b3{
+        background-image: linear-gradient(360deg,rgb(255, 0, 204), rgb(116, 0, 198));
+    }
+    .btimg{
+        height: 70px;
+        width: 70px;
+        margin-left: 30px;
+    }
+    .btlink{
+        text-decoration: none;
+        font-family: roboto;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    #sb1{
+        color: rgb(255, 225, 0);
+    }
+    #sb2{
+        color: rgb(0, 200, 255);
+    }
+    #sb3{
+        color: rgb(255, 0, 255);
+    }
+    .title1{
+        font-size: 10px;
+    }
+    .title2{
+        font-size: 10px;
+    }
+    .title3{
+        font-size: 10px;
+    }
+    .buttonslol{
+        width: 100px;
+        height: 50px;
     }
     .daveboi{
         display: none;
@@ -406,6 +474,9 @@ body{
         justify-content: center;
     }
     .matthew{
+        width: 300px;
+    }
+    .button{
         width: 300px;
     }
 }
