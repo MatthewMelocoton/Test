@@ -353,6 +353,8 @@ body{
     }
     body{
         overflow: hidden;
+        display: flex;
+        justify-content: center;
     }
     .matthew2{
         width: 240px;
@@ -372,8 +374,6 @@ body{
     }
     .container{
         width: 250px;
-        margin-left: 20px;
-        margin-top: 190px;
         display: flex;
         flex-direction: column;
     }
