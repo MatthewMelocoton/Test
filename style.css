@@ -340,77 +340,72 @@ body{
 .linkweb2 a{
     text-decoration: none;
 }
-@media only screen and (max-width: 420px){
-    .matthew2{
-        display: block;
-    }
+@media only all and (max-width: 650px){
     .sidebar{
+        background-image: linear-gradient(0deg, rgba(10, 1, 96, 0.01),rgba(25, 0, 255, 0.4));
+        height: 450px;
+        width: 100vw;
+        overflow: auto;
+        display: flex;
+        align-items: center;
+    }
+    .matthew{
+        margin-left: 0;
+        height: 200px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .matthew a{
+        font-size: 28px;
+    }
+    .de{
+        background-color: transparent;
+        width: 100vh;
+        height: 450px;
+    }
+    .logo{
+        margin-left: 0;
+        height: 150px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logoimg{
+        width: 300px;
+        height: 150px;
+    }
+    .fish{
         display: none;
     }
     html{
-        background-color: rgb(5, 0, 38);
-        background-image: none;
+        background-image: url(gradient.png);
+        height: 100%;
+        width: 100%;
     }
-    body{
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-    }
-    .matthew2{
-        width: 240px;
-        height: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .matthew2 a{
-        text-decoration: none;
-        font-family: roboto;
-        font-weight: 600;
-        color: rgb(107, 186, 255);
-        align-items: center;
-        margin-top: 3px;
+    .lilboi{
+        display: none;
     }
     .container{
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-    .buttonslol{
-        width: 230px;
-        height: 100px;
-        margin-left: 10px;
-    }
-    .cbimg{
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-    }
-    .stats{
-        width: 50px;
-        height: 50px;
-        margin-left: 20px;
-    }
-    .knight{
-        width: 60px;
-        height: 60px;
-        margin-left: 15px;
-        margin-top: 20px;
-    }
-    .title1{
-        margin-left: 10px;
-    }
-    .title2{
-        margin-left: 10px;
-    }
-    .title3{
-        margin-left: 10px;
+        display: none;
     }
     .daveboi{
         display: none;
     }
-    .lilboi{
-        display: none;
+}
+@media only all and (max-width: 370px){
+    .logo{
+        margin-left: 0;
+        height: 150px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .matthew{
+        width: 300px;
     }
 }
